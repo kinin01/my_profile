@@ -1,0 +1,14 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(Get-ChildItem -Path \"C:\\\\Users\\\\Hello\\\\my_profile\" -Force)",
+      "Bash(Select-Object Name, FullName)",
+      "PowerShell(Get-ChildItem -Path \"C:\\\\Users\\\\Hello\\\\my_profile\" -Hidden -Force | Where-Object { $_.Name -ne '.claude' } | Select-Object Name, FullName)",
+      "WebFetch(domain:stanleymasinde.com)",
+      "WebFetch(domain:github.com)",
+      "WebFetch(domain:www.kiko-pms.com)",
+      "WebFetch(domain:www.linkedin.com)",
+      "WebSearch"
+    ]
+  }
+}
