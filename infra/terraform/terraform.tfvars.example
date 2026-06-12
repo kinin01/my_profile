@@ -1,0 +1,6 @@
+# Copy this file to terraform.tfvars and fill in real values.
+# terraform.tfvars is .gitignored and must never be committed.
+
+cloudflare_account_id = "YOUR_32_CHAR_ACCOUNT_ID"
+cloudflare_api_token  = "YOUR_API_TOKEN"
+project_name          = "my-profile"
