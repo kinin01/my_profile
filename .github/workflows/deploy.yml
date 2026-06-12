@@ -16,7 +16,7 @@ permissions:
 
 env:
   NODE_VERSION: "20"
-  CF_PROJECT_NAME: "kiningustephen" # Must match Terraform var.project_name
+  CF_PROJECT_NAME: "my-profile-eg7" # actual Cloudflare Pages project name
 
 jobs:
   build-and-deploy:
