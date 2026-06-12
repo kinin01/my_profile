@@ -8,7 +8,16 @@
       "WebFetch(domain:github.com)",
       "WebFetch(domain:www.kiko-pms.com)",
       "WebFetch(domain:www.linkedin.com)",
-      "WebSearch"
+      "WebSearch",
+      "Bash(Get-Content \"C:\\\\Users\\\\Hello\\\\AppData\\\\Local\\\\Temp\\\\claude\\\\C--Users-Hello-my-profile\\\\93c28fb3-1ebf-43d8-84fe-a0cc287a547e\\\\tasks\\\\bdbyyq02d.output\" -Wait)",
+      "Bash(Select-String -Pattern \"Success|error|Error|done|Done|created|Created|ready|Ready|failed|Failed\" --)",
+      "Bash(curl -s -o /dev/null -w \"%{http_code}\" http://localhost:3000)",
+      "PowerShell(Get-Item *)",
+      "PowerShell(python --version; python -c \"import PyPDF2; print\\('PyPDF2 ok'\\)\" 2>&1)",
+      "PowerShell(pip install *)",
+      "Bash(npx tsc *)",
+      "Bash(npx next *)",
+      "Bash(python render_page1.py)"
     ]
   }
 }

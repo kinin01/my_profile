@@ -1,26 +1,59 @@
 @import "tailwindcss";
 
 :root {
-  --background: #ffffff;
-  --foreground: #171717;
+  --blue: #5792C1;
+  --blue-dark: #034276;
+  --charcoal: #42373D;
+  --text-body: #594F55;
+  --black: #000000;
+  --white: #ffffff;
+  --blue-light: #EBF3FA;
 }
 
-@theme inline {
-  --color-background: var(--background);
-  --color-foreground: var(--foreground);
-  --font-sans: var(--font-geist-sans);
-  --font-mono: var(--font-geist-mono);
+html {
+  scroll-behavior: smooth;
 }
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
+::selection {
+  background-color: #5792C1;
+  color: #ffffff;
+}
+
+::-webkit-scrollbar {
+  width: 4px;
+}
+::-webkit-scrollbar-track {
+  background: #ffffff;
+}
+::-webkit-scrollbar-thumb {
+  background: #5792C1;
+  border-radius: 2px;
+}
+
+@layer utilities {
+  .font-display {
+    font-family: var(--font-bebas), 'Impact', sans-serif;
+    letter-spacing: 0.04em;
   }
-}
-
-body {
-  background: var(--background);
-  color: var(--foreground);
-  font-family: Arial, Helvetica, sans-serif;
+  .font-body {
+    font-family: var(--font-dm-sans), system-ui, sans-serif;
+  }
+  .text-pdf-blue {
+    color: #5792C1;
+  }
+  .bg-pdf-blue {
+    background-color: #5792C1;
+  }
+  .text-pdf-charcoal {
+    color: #42373D;
+  }
+  .bg-pdf-charcoal {
+    background-color: #42373D;
+  }
+  .text-pdf-body {
+    color: #594F55;
+  }
+  .border-pdf-blue {
+    border-color: #5792C1;
+  }
 }
