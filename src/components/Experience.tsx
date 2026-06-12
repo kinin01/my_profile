@@ -10,7 +10,20 @@ export default function Experience() {
 
       {/* ── LEFT: Blue panel with cloud image background ── */}
       <AnimatedSection className="lg:w-[32%] bg-[#5792C1] flex flex-col min-h-[300px] lg:min-h-0 relative overflow-hidden">
-        {/* Cloud image fills top */}
+        {/* Label on top */}
+        <div className="relative z-10 p-8 lg:p-12 bg-[#5792C1]">
+          <p className="font-body text-white/60 text-xs uppercase tracking-[0.25em] font-medium mb-3">
+            Section 06
+          </p>
+          <h2 className="font-display text-[2.5rem] md:text-[3.2rem] leading-none text-white">
+            PROFESSIONAL
+          </h2>
+          <h2 className="font-display text-[2.5rem] md:text-[3.2rem] leading-none text-white">
+            EXP.
+          </h2>
+          <div className="mt-4 w-12 h-1 bg-white/40" />
+        </div>
+        {/* Cloud image fills remaining space */}
         <div className="relative flex-1 min-h-[200px]">
           <Image
             src="/images/cloud.jpeg"
@@ -20,22 +33,6 @@ export default function Experience() {
             sizes="(max-width: 1024px) 100vw, 32vw"
           />
           <div className="absolute inset-0 bg-[#5792C1]/50" />
-        </div>
-        {/* Label below */}
-        <div className="relative z-10 p-8 lg:p-12 bg-[#5792C1]">
-          <p className="font-body text-white/60 text-xs uppercase tracking-[0.25em] font-medium mb-3">
-            Section 06
-          </p>
-          <h2 className="font-display text-[3.5rem] md:text-[5rem] leading-none text-white">
-            PROFES
-          </h2>
-          <h2 className="font-display text-[3.5rem] md:text-[5rem] leading-none text-white">
-            SIONAL
-          </h2>
-          <h2 className="font-display text-[3.5rem] md:text-[5rem] leading-none text-white">
-            EXP.
-          </h2>
-          <div className="mt-4 w-12 h-1 bg-white/40" />
         </div>
       </AnimatedSection>
 
