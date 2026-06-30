@@ -4,14 +4,14 @@ export const profile = {
   title: "Software Engineer & SaaS Architect",
   subtitle: "Founder, HippoTech Edge · Creator, KIKO PMS",
   headline:
-    "Building scalable cloud-native platforms and enterprise software that drives digital transformation across Africa.",
-  bio: `A Software Engineer, SaaS Architect, and technology entrepreneur specialising in the design and delivery of scalable cloud-native platforms, enterprise software solutions, and AI-powered business applications.
+    "Building AI-powered software and scalable cloud-native platforms that drive digital transformation across Africa.",
+  bio: `A Software Engineer, SaaS Architect, and technology entrepreneur specialising in the design and delivery of AI-powered business applications, scalable cloud-native platforms, and enterprise software solutions.
 
-As the Founder of HippoTech Edge, I help organisations drive digital transformation through innovative technology, intelligent automation, and data-driven systems. I am also the creator of KIKO PMS — an advanced Property Management and Real Estate CRM platform built to streamline operations and improve business performance through savvy automation and analytics.
+As the Founder of HippoTech Edge, I help organisations drive digital transformation through intelligent automation, artificial intelligence, and data-driven systems. I am also the creator of KIKO PMS — an AI-Powered Property Management platform Built for Africa, designed to transform how property managers, landlords, and real estate professionals operate through intelligent automation, predictive analytics, and seamless integrations.
 
 Known for combining technical excellence with strategic business insight, I partner with organisations to transform complex challenges into scalable, high-impact digital solutions that deliver measurable growth and long-term value.`,
   vision:
-    "To build world-class technology solutions that empower property managers, landlords, and businesses across Africa through automation, artificial intelligence, and cloud innovation.",
+    "To build world-class AI-powered technology that empowers property managers, landlords, and businesses across Africa — making intelligent automation and cloud innovation accessible to every property professional on the continent.",
   personalStatement:
     "I believe technology should solve real business problems, not create complexity. My work focuses on developing scalable, intelligent, and user-friendly solutions that help organisations operate more efficiently and make better decisions.",
   email: "support@kiko-pms.com",
@@ -126,12 +126,13 @@ export const experience = [
     type: "Product",
     location: "www.kiko-pms.com",
     description:
-      "Conceived and developed a next-generation Property Management System and Real Estate CRM designed to streamline operations for property managers, landlords, real estate agencies, and developers.",
+      "Conceived and developed KIKO PMS — an AI-Powered Property Management platform Built for Africa, enabling property managers, landlords, real estate agencies, and developers to run smarter operations through intelligent automation and real-time analytics.",
     achievements: [
       "End-to-end product vision, architecture design, and development leadership",
-      "Advanced automation and analytics for property operations",
-      "Real Estate CRM with workflow automation and decision-support tools",
-      "Platform serving property managers and landlords across Kenya",
+      "AI-driven automation for rent collection, tenant management, and maintenance workflows",
+      "Predictive analytics and financial intelligence reporting built for African property markets",
+      "Real Estate CRM with AI-assisted decision-support tools and workflow automation",
+      "Platform purpose-built for Kenya and the broader East African property market",
     ],
     tech: [
       "Next.js",
@@ -158,11 +159,11 @@ export const projects = [
   {
     id: 1,
     title: "KIKO PMS",
-    subtitle: "Property Management & Real Estate CRM",
+    subtitle: "AI-Powered Property Management Built for Africa",
     description:
-      "A next-generation cloud-based Property Management System and Real Estate CRM platform purpose-built for the African market. Automates tenant management, rent collection, maintenance, leasing, and financial reporting.",
+      "An AI-powered, cloud-based Property Management platform purpose-built for the African market. Automates tenant management, rent collection, maintenance, leasing, and financial reporting — giving property managers and landlords intelligent tools to run smarter operations.",
     longDescription:
-      "KIKO PMS streamlines the entire property management lifecycle — from onboarding tenants to collecting rent, tracking maintenance, and generating financial intelligence reports. Built with the unique needs of Kenyan and African property managers in mind.",
+      "KIKO PMS transforms the entire property management lifecycle with AI at its core — from intelligently onboarding tenants to automating rent collection, predicting maintenance needs, and generating financial intelligence reports. Built from the ground up for the unique needs of Kenyan and African property professionals, with native M-Pesa integration and Africa-first workflows.",
     tech: [
       "Next.js",
       "Django",
@@ -178,10 +179,10 @@ export const projects = [
     featured: true,
     category: "SaaS Platform",
     metrics: [
-      "Live product",
-      "Kenya & East Africa",
-      "Cloud-hosted",
-      "AI-powered",
+      "AI-Powered",
+      "Built for Africa",
+      "Live Product",
+      "M-Pesa Native",
     ],
   },
   {
