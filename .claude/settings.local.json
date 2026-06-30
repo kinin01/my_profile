@@ -17,7 +17,20 @@
       "PowerShell(pip install *)",
       "Bash(npx tsc *)",
       "Bash(npx next *)",
-      "Bash(python render_page1.py)"
+      "Bash(python render_page1.py)",
+      "Bash(Get-ChildItem *)",
+      "Bash(git *)",
+      "Bash(npm run *)",
+      "Bash(terraform init *)",
+      "Bash(terraform plan *)",
+      "Bash(terraform apply *)",
+      "Bash(terraform state *)",
+      "Bash(terraform import *)",
+      "Bash(gh run *)",
+      "Bash(gh auth *)",
+      "Bash(curl *)",
+      "Bash(python3 -c \"import sys,json; data=json.load\\(sys.stdin\\); [print\\(p['name']\\) for p in data.get\\('result',[]\\)]\")",
+      "WebFetch(domain:kiko-pms.com)"
     ]
   }
 }
