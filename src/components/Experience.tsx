@@ -55,7 +55,14 @@ export default function Experience() {
                 {job.role.toUpperCase()}
               </h3>
               <div className="flex items-center gap-2 mb-1">
-                <p className="font-body text-base font-semibold text-[#5792C1]">{job.company}</p>
+                {job.website ? (
+                  <a href={job.website} target="_blank" rel="noopener noreferrer" className="font-body text-base font-semibold text-[#5792C1] hover:text-[#034276] hover:underline flex items-center gap-1.5">
+                    {job.company}
+                    <ExternalLink size={13} />
+                  </a>
+                ) : (
+                  <p className="font-body text-base font-semibold text-[#5792C1]">{job.company}</p>
+                )}
                 {job.location.startsWith("www") && (
                   <a href={`https://${job.location}`} target="_blank" rel="noopener noreferrer" className="text-[#5792C1] hover:text-[#034276]">
                     <ExternalLink size={14} />

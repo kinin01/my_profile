@@ -19,7 +19,7 @@ Known for combining technical excellence with strategic business insight, I part
   phone: "+254 769 580 728",
   github: "https://github.com/kinin01",
   linkedin: "https://www.linkedin.com/in/kiningu-stephen-/",
-  website: "https://www.kiko-pms.com",
+  website: "https://www.hippotechedge.com",
   location: "Nairobi / Eldoret, Kenya",
 };
 
@@ -112,6 +112,7 @@ export const experience = [
   {
     id: 1,
     company: "HippoTech Edge",
+    website: "https://www.hippotechedge.com",
     role: "Founder & Chief Tech Architect",
     period: "Current",
     type: "Founder",
@@ -131,6 +132,7 @@ export const experience = [
   {
     id: 2,
     company: "KIKO PMS",
+    website: null as string | null,
     role: "Creator & Lead Architect",
     period: "Current",
     type: "Product",
@@ -201,9 +203,9 @@ export const projects = [
   {
     id: 2,
     title: "HippoTech Edge",
-    subtitle: "Technology Consulting Platform",
+    subtitle: "Digital Intelligence. Designed for Your Business.",
     description:
-      "Enterprise technology consulting and software development firm delivering digital transformation, AI integration, and cloud-native solutions for businesses across Africa.",
+      "Enterprise technology consulting firm delivering AI-Powered Systems, Cloud-Native Platforms, Custom Software Development, Business Process Automation, Systems Integration, and Digital Transformation Consulting across Africa.",
     tech: [
       "Python",
       "Django",
@@ -214,15 +216,15 @@ export const projects = [
       "AI/LLM",
       "Kubernetes",
     ],
-    link: null as string | null,
+    link: "https://www.hippotechedge.com",
     github: "https://github.com/kinin01",
     featured: true,
     category: "Enterprise Consulting",
     metrics: [
-      "Enterprise clients",
-      "Africa-focused",
-      "AI-driven",
-      "Multi-industry",
+      "80% Automation",
+      "Pan-Africa Reach",
+      "6 Service Lines",
+      "3+ Products",
     ],
   },
   {
